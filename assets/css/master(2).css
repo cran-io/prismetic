@@ -1,0 +1,43 @@
+
+
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+-------------------------------------------------------------------*/
+
+/* Fonts css */
+
+@import "http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900";
+@import "font-awesome.min.css";
+@import "simple-line-icons.css";
+
+/* Basic css */
+
+@import "bootstrap.css";
+@import "maincss.css";
+
+@import "jquery-ui.css";
+@import "animate.css";
+
+/* Additional css */
+
+@import "owl.carousel.css";
+@import "jquery.fancybox.css";
+@import "owl.transitions.css";
+
+/*VERTICAL ALIGN*/
+
+.valign-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  .valign-wrapper .valign {
+    display: block; }
+
