@@ -1400,10 +1400,17 @@ label {
     margin-left: 0;
 }
 .copyright .copyright-links {
+    text-align: center;
+}
+.copyright .copyright-cranio {
     text-align: right;
 }
 @media (max-width: 991px) {
     .copyright .copyright-links {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .copyright .copyright-cranio {
         text-align: left;
         margin-top: 20px;
     }
