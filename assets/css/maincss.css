@@ -11,7 +11,7 @@
     margin-bottom: 30px;
 	margin-top: 30px;
     min-height: 35px;
-	
+
 }
 .form-style-9 ul li  .field-style{
 	box-sizing: border-box;
@@ -44,7 +44,7 @@
 	outline: none;
     align: left;
 
-	
+
 	border: 1px solid #96D69F;
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
@@ -78,9 +78,9 @@
 
 .form-style-9 ul li input{
 			height:45px;}
-	
+
 .form-style-9 ul li select.align-left{
-    float:left;	
+    float:left;
 }
 
 .form-style-9 ul li .align-center{
@@ -101,7 +101,7 @@
     width: 100%;
     height: 100px;
 }
-.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="button"],
 .form-style-9 ul li input[type="submit"] {
 	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #59b682;
@@ -115,7 +115,7 @@
 	text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
-.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="button"]:hover,
 .form-style-9 ul li input[type="submit"]:hover {
 	background-color: #59b682;
 }
@@ -206,7 +206,7 @@ ul.list-styled.list-style-standart ul li::before {
     padding-right: 0;
     padding-left: 0;
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   h1{font-size: 30px!important;}
   h2{font-size: 30px;}
   h3{font-size: 30px;}
@@ -336,7 +336,7 @@ p.subhead {
 }
 .btn-short2 {
     display: block;
-    align: right;    
+    align: right;
     text-align: center;
     opacity: 0.6;
     padding-left: 10px;
@@ -345,7 +345,7 @@ p.subhead {
 
 .btn-short3 {
     display: block;
-    align: center;    
+    align: center;
     text-align: center;
     opacity: 0.6;
     padding-top: 10px;
@@ -1507,7 +1507,7 @@ section.divider.striped-icon {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 350px;
-    min-height: 980px; 
+    min-height: 980px;
 }
 
 .home-header a.btn-primary {
@@ -3118,7 +3118,7 @@ section.team {
 }
 .wrap-timeline .right-row {
     text-align: left;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 .wrap-timeline .right-row .time-item {
     padding-left: 80px;
@@ -3783,7 +3783,7 @@ body {
     background: #f9f9fa;
     border-top: 0px solid #f9f9fa;
     position: relative;
-    background-color:#EAFFF0; 
+    background-color:#EAFFF0;
 }
 
 
@@ -3843,12 +3843,12 @@ body {
     font-size: 18px;
     font-weight: 150;
 }
-    
+
 .wrap-questions2 p {
     font-size: 18px;
     font-weight: 150;
 }
-    
+
 .gallery-header {
     height: 700px;
     background: url(../images/placehold/1920x700.gif) top center no-repeat;
@@ -6348,7 +6348,7 @@ text[text-anchor="end"] {
 .logocheckout {
     vertical-align: middle;
 }
-    
+
 .btn-back {
     padding-bottom: 150px;
     margin-top: -50px;
@@ -6378,7 +6378,7 @@ text[text-anchor="end"] {
 
 .Catchline p {
     margin-left: 0.5em;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1.5em;
 }
 
@@ -6403,14 +6403,13 @@ text[text-anchor="end"] {
 }
 
 .mockup {
-   width:30%;
-   margin:auto;
-   margin-top: 80px;
-   margin-bottom: 120px;
+	margin-bottom: 80px;
+	margin-top: 0px;
 }
 
 .wrap-start h4 {
     padding-bottom: 30px;
+		color: grey;
 }
 
 #form2 {
@@ -6420,6 +6419,33 @@ text[text-anchor="end"] {
     font-weight: 100;
 }
 
+.icon-col{
+	text-align: center;
+}
 
+#image-icon-col{
+	height: 80px;
+	width: 80px;
+	margin: auto;
+}
 
+.valign-wrapper {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.valign-wrapper .valign {
+display: block;
+}
+
+.no-margin {
+	margin: 0px;
+}
 /* End Tooltips styles */
