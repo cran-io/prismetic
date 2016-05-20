@@ -5775,7 +5775,10 @@ body {
     text-align: center;
     line-height: 1.3em;
     color: white;
-}
+		padding-bottom: 15px;
+		color: grey;
+		margin-bottom: 0px;
+		}
 
 .relative-nav-container.open-search {
     transition: all 0.3s ease-out;
@@ -6355,7 +6358,8 @@ text[text-anchor="end"] {
 }
 
 .suscribe {
-    padding: 20px;
+    padding: 10px;
+		margin-top: 100px;
 }
 
 #form {
@@ -6407,10 +6411,7 @@ text[text-anchor="end"] {
 	margin-top: 0px;
 }
 
-.wrap-start h4 {
-    padding-bottom: 30px;
-		color: grey;
-}
+
 
 #form2 {
     font-size: 2em;
@@ -6448,4 +6449,17 @@ display: block;
 .no-margin {
 	margin: 0px;
 }
+
+.mc-field-group input {
+	width: 100%;
+}
+
+#mce-LNAME {
+	height: 100px;
+}
+
+#mc_embed_signup {
+	margin-left: 80px;
+}
+
 /* End Tooltips styles */
